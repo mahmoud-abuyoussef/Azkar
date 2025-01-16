@@ -3,10 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quran Kareem</title>
+    <title>القرآن الكريم</title>
     <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="icon" href="assets/icons/favicon.ico" />
   </head>
-  <body>
+  <body dir="rtl">
+    <header>
+      <div class="container">
+        <a href="index.html" class="site-logo">القرآن الكريم</a>
+        <nav>
+          <img src="assets/icons/dark.webp" id="toggle-theme" alt="Switch To Dark Mode Or Ligh Mode" />
+          <img src="assets/icons/menu.webp" id="toggle-nav-menu" alt="Bars Icon" />
+          <ul id="nav-menu">
+            <li><a href="index.html">القرآن الكريم</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script type="module" src="assets/scripts/helpers/fetchAPI.js"></script>
     <script src="assets/scripts/main.js"></script>
   </body>
 </html>

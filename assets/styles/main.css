@@ -5,7 +5,9 @@
 }
 :root {
   --text-color: white;
+  --section-title-color: teal;
   --bg-color: teal;
+  --section-padding: 70px;
 }
 html {
   scroll-behavior: smooth;
@@ -79,10 +81,17 @@ header .site-logo {
     position: absolute;
     top: 85px;
     left: 0;
+    z-index: 1;
     display: none;
     width: 200px;
-    padding: 20px;
     background-color: var(--bg-color);
+  }
+  header ul li a {
+    display: block;
+    padding: 15px;
+  }
+  header ul li:not(:last-child) {
+    border-bottom: 1px solid rgb(255 255 255 / 0.1);
   }
 }
 @media (min-width: 992px) {
@@ -97,4 +106,9 @@ header .site-logo {
 header ul li a {
   font-weight: bold;
   color: var(--text-color);
+}
+section h2 {
+  text-align: center;
+  font-weight: bold;
+  color: var(--section-title-color);
 }

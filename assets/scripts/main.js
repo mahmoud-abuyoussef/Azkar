@@ -11,3 +11,5 @@ document.getElementById("toggle-theme").onclick = () => {
     document.getElementById("toggle-theme").src = "assets/icons/light.webp";
   }
 };
+
+//

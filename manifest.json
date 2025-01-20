@@ -6,8 +6,8 @@
   "background_color": "#008080",
   "display": "standalone",
   "orientation": "any",
-  "scope": "/",
-  "start_url": "https://mahmoud-abuyoussef.github.io/GitHub_Finder/",
+  "scope": "/Azkar/",
+  "start_url": "https://mahmoud-abuyoussef.github.io/Azkar/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",

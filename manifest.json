@@ -8,6 +8,7 @@
   "orientation": "any",
   "scope": "/Azkar/",
   "start_url": "https://mahmoud-abuyoussef.github.io/Azkar/",
+  "id": "/Azkar/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
